@@ -1,0 +1,122 @@
+body {
+    background: #3399ff;
+}
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+.header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+}
+
+/* Article container styles */
+.article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Links styles */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* styles.css */
+
+/* Style the button */
+.share-button {
+    background-color: #ffffff; /* Set your desired button background color */
+    padding:0; /* Adjust padding as needed */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 6px; /* Adjust font size to make the button smaller */
+}
+
+
+/* Style the share menu */
+.share-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0;
+    left: 0;
+    top: 8px; /* Adjust the distance from the button as needed */
+}
+
+/* Style the share options (icons and labels) */
+.share-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0; /* Adjust spacing between options */
+}
+
+.share-option img {
+    width: 4px; /* Set the icon width as needed */
+    height: 4px; /* Set the icon height as needed */
+    margin-right: 1px; /* Adjust spacing between icon and label */
+}
+
+/* Show the share menu when the button is hovered */
+.share-button:hover + .share-menu {
+    display: block;
+}
+/* New styles for content boxes */
+.content-box {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.content-box h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content-box p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
